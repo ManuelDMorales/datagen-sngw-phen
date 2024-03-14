@@ -3,7 +3,7 @@
 Dataset generator of strain (time series) samples containing phenomenological gravitational waves from core-collapse supernovae added to noise from LIGO-Virgo interferometric detectors. Jupyter notebooks developed in Python and written by Manuel D. Morales (e-mail: <manueld.morales@academicos.udg.mx>).
 
 
-# Technical details
+# Astrophysical details
 
 <b><ins>Interferometric noise</ins></b>
 
@@ -48,6 +48,14 @@ Run the Jupyter notebooks in the following order:
 
 In addition, the file `Toolbox.py` is included, which contains specific functions for the notebooks.
 
-# Special instructions
+# Important instructions
 
-All scripts were run locally, and in some cells, you will need to edit path locations. The set of 600 phenomenological waveforms used in this work is available in the public folder: XXX. Once you download this folder, locate it at the same level as the folder `Codes`, as shown in the three detailed in the previous section.
+1. All scripts were run locally, and in some cells, you will need to edit path locations. The set of 600 phenomenological waveforms used in this work is available in the public folder Waveforms_orig. Once you download this folder, locate it in your local machine as shown in the tree of the previous section.
+
+2. In the input of `Prepare_Waveforms.ipynb` script, you can change the rescaling factor (Resc_factor) to change the SNR values of injected signals. It should be stressed that, depending on the noise realization, the distribution of SNR values can be displaced as shown in `Populations.ipynb` script.
+
+3. To vary the length of the windows
+
+4. Before run `Process_PhenWaveforms.ipynb` to perform injections along a whole noise segment of 4,096 s), it is highly recommended to apply them only on a small segment of a few tens of seconds. To perform this first check, you need to...
+
+
