@@ -34,7 +34,6 @@ datagen-sngw-phen
      |___ Phen
 |___ LICENCE
 |___ README.md
-
 ```
 
 Run the Jupyter notebooks in the following order:
@@ -47,7 +46,7 @@ Run the Jupyter notebooks in the following order:
 
 `Process_PhenWaveforms.ipynb` for applying injections, data conditioning (whitened, band-pass filtering), and generating a dataset of window strain samples. Each one of these windows has the same length Twin<4,096s, contains noise plus a phenomenological waveform, and is saved in a .txt file. In addition, a log.dat file is saved which contains information about injected signals in all windows.
 
-In addition, the file `Toolbox.py' is included, which contains all functions used in the notebooks.
+In addition, the file `Toolbox.py` is included, which contains specific functions for the notebooks.
 
 # Special instructions
 
