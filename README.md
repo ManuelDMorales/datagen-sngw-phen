@@ -50,7 +50,7 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 # Important instructions
 
-1. All scripts were run locally, and in some cells, you will need to edit path locations. The set of 600 phenomenological waveforms used in this work is available in the public folder Waveforms_orig. Once you download this folder, locate it in your local machine as shown in the tree of the previous section.
+1. All scripts were run locally, and in some cells, you will need to edit path locations. The set of 600 phenomenological waveforms used in this work is available in the public folder [Waveforms_orig](https://drive.google.com/drive/folders/1GuOWzGEHlAedqWZcCAShcAanpDnC1bIy?usp=sharing). Once you download this folder, locate it in your local computer as shown in the tree detailed in the previous section.
 
 2. In the input of `Prepare_Waveforms.ipynb` script, you can change the rescaling factor (Resc_factor) to change the SNR values of injected signals. It should be stressed that, depending on the noise realization, the distribution of SNR values can be displaced as shown in `Populations.ipynb` script.
 
