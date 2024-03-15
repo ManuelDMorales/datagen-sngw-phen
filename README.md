@@ -72,4 +72,4 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 7. To correctly explore populations in `Populations.ipynb` script, you need to generate a dataset containing window strain samples belonging to the three classes, that is to say, run `Process_PhenWaveforms.ipynb` three times, for each class (set in waveform_class input parameter, subsection 2.1).  
 
-8. Saving plots as images is not mandatory in the codes. However, if you want it, you will need to create a folder "Figures" at the highest folder hierarchy of the project, and to uncomment line(s) with the plt.savefig statements in the desired plots.
+8. Saving plots as images is not mandatory in the codes. However, if you want it, you will need to create a folder "Figures" at the highest folder hierarchy of the project, and to uncomment line(s) with the plt.savefig statements in the scripts, for the desired plot(s).
