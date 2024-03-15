@@ -64,6 +64,6 @@ In addition, the file `Toolbox.py` is included, which contains specific function
    
 6. For the check previously mentioned, it is also useful to set input parameters doplot_spectrogram=1 (section 3.4.1) and set_doplots=0 (section 4.1). This output plots of windows samples in time and time-frequency domains. Only set this when working with a reduced segment; outputting plots working with the complete segment of 4096s considerably slows down the script execution.
 
-7. To correctly explore populations in `Populations.ipynb` script, you need to generate a dataset containing window strain samples belonging to the three classes, that is to say, run `Process_PhenWaveforms.ipynb` three times (setting waveform_class input parameter "1", "2", and "3", in subsection 2.1).  
+7. To correctly explore populations in `Populations.ipynb` script, you need to generate a dataset containing window strain samples belonging to the three classes, that is to say, run `Process_PhenWaveforms.ipynb` three times, for each class (set in waveform_class input parameter, subsection 2.1).  
 
 8. Saving plots as images is not mandatory in the codes. However, if you want it, you will need to create a folder "Figures" at the highest folder hierarchy of the project, and to uncomment line(s) with the plt.savefig statements in the desired plots.
