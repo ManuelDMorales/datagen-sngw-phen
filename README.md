@@ -28,6 +28,7 @@ datagen-sngw-phen
      |___ Toolbox.py
      |___ WaveformPhen_Explorer.ipynb
 |___ Datasets
+|___ Pictures
 |___ Waveforms_mod
      |___ Phen
 |___ Waveforms_orig
