@@ -58,7 +58,7 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 # Important instructions
 
-1. All scripts were run locally, then you will need to edit path locations in cells for read files. The set of 600 phenomenological waveforms used in this work is available in the public folder [Waveforms_orig](https://drive.google.com/drive/folders/1GuOWzGEHlAedqWZcCAShcAanpDnC1bIy?usp=sharing). Download this folder and locate it in your local machine as shown in the tree detailed in the previous section.
+1. All scripts were run locally, then you will need to edit path locations in cells for read files. The set of 600 phenomenological waveforms used in this work is available in the public folder [Waveforms_orig](https://drive.google.com/drive/folders/1GuOWzGEHlAedqWZcCAShcAanpDnC1bIy?usp=sharing). Download this folder and locate it in your local machine as shown in the tree detailed in implementation structure.
 
 2. In the input of `Prepare_Waveforms.ipynb` script, you can change the rescaling factor (Resc_factor) to change the SNR values of injected signals. Depending on this rescaling factor (and the noise realization), the distribution of SNR values can change. To explore this distribution, run the `Populations.ipynb` script.
 
@@ -68,7 +68,7 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 5. Before running `Process_PhenWaveforms.ipynb` to perform injections (and to generate window samples) covering a whole noise segment of 4,096s, it is highly recommendable to apply it only on a reduced segment of a few tens of seconds. To perform this check, set reduce_segment=1 and reduced_time_n equal to the duration (in seconds) of the reduced segment, in subsection 2.1 of the script.
    
-6. For the check previously mentioned, it is also useful to set input parameters doplot_spectrogram=1 (section 3.4.1) and set_doplots=0 (section 4.1). This output plots of windows samples in time and time-frequency domains. Only set this when working with a reduced segment; outputting plots working with the complete segment of 4096s considerably slows down the script execution.
+6. For the check previously mentioned, it is also useful to set input parameters doplot_spectrogram=1 (subsection 3.4.1) and set_doplots=0 (subsection 4.1). This output plots of windows samples in time and time-frequency domains. Only set this when working with a reduced segment; outputting plots working with the complete segment of 4096s considerably slows down the script execution.
 
 7. To correctly explore populations in `Populations.ipynb` script, you need to generate a dataset containing window strain samples belonging to the three classes, that is to say, run `Process_PhenWaveforms.ipynb` three times, for each class (set in waveform_class input parameter, subsection 2.1).  
 
