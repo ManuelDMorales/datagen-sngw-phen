@@ -62,7 +62,7 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 2. In the input of `Prepare_Waveforms.ipynb` script, you can change the rescaling factor (Resc_factor) to change the SNR values of injected signals. Depending on this rescaling factor (and the noise realization), the distribution of SNR values can change. To explore this distribution, run the `Populations.ipynb` script.
 
-3. In `Process_PhenWaveforms.ipynb`, a random combination of waveforms is selected to be injected in a noise strain data segment. Each injection is performed in a location inj_time +/- jitter (in seconds), in which jitter is a random value in the range [inj_time - jitter_lim, inj_time + jitter_lim]. Jitter_lim is an input parameter that you can change in subsection 2.1 of the aforementioned script (ensure that jim_lim << dt_inj).
+3. In `Process_PhenWaveforms.ipynb`, a random combination of waveforms is selected to be injected in a noise strain data segment. Each injection is performed in a location inj_time +/- jitter (in seconds), in which jitter is a random value in the range [inj_time - jitter_lim, inj_time + jitter_lim]. Jitter_lim is also an input parameter that can be set in subsection 2.1 (ensure that jim_lim << dt_inj).
 
 4. The time window duration of window strain samples is Twin = wf_max + alpha, where wf_max is the duration of the longest injected waveform, and alpha is an input parameter. Then, to change window duration, change alpha input parameter in subsection 4.1 of `Process_PhenWaveforms.ipynb` script.
 
