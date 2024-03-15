@@ -56,10 +56,14 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 2. In the input of `Prepare_Waveforms.ipynb` script, you can change the rescaling factor (Resc_factor) to change the SNR values of injected signals. Depending on this rescaling factor (and the noise realization), the distribution of SNR values can change. To explore this distribution, run the `Populations.ipynb` script.
 
-3. In the `Process_PhenWaveforms.ipynb` script, a random combination of waveforms is selected to be injected in a noise strain data segment. Each injection is performed in a location inj_time +/- jitter (in seconds), in which jitter is a random value in the range [inj_time - jitter_lim, inj_time + jitter_lim]. Jitter_lim is an input parameter that you can change in subsection 2.1 of the aforementioned script (ensure that jim_lim << dt_inj).
+3. In `Process_PhenWaveforms.ipynb`, a random combination of waveforms is selected to be injected in a noise strain data segment. Each injection is performed in a location inj_time +/- jitter (in seconds), in which jitter is a random value in the range [inj_time - jitter_lim, inj_time + jitter_lim]. Jitter_lim is an input parameter that you can change in subsection 2.1 of the aforementioned script (ensure that jim_lim << dt_inj).
 
 4. The time window duration of window strain samples is Twin = wf_max + alpha, where wf_max is the duration of the longest injected waveform, and alpha is an input parameter. Then, to change window duration, change alpha input parameter in subsection 4.1 of `Process_PhenWaveforms.ipynb` script.
 
 5. Before running `Process_PhenWaveforms.ipynb` to perform injections (and to generate window samples) covering a whole noise segment of 4,096s, it is highly recommendable to apply it only on a reduced segment of a few tens of seconds. To perform this check, set reduce_segment=1 and reduced_time_n equal to the duration (in seconds) of the reduced segment, in subsection 2.1 of the script.
    
 6. For the check previously mentioned, it is also useful to set input parameters doplot_spectrogram=1 (section 3.4.1) and set_doplots=0 (section 4.1). This output plots of windows samples in time and time-frequency domains. Only set this when working with a reduced segment; outputting plots working with the complete segment of 4096s considerably slows down the script execution.
+
+7. To correctly explore populations in `Populations.ipynb` script, you need to generate a dataset containing window strain samples belonging to the three classes, that is to say, run `Process_PhenWaveforms.ipynb` three times (setting waveform_class input parameter "1", "2", and "3", in subsection 2.1).  
+
+8. Saving plots as images is not mandatory in the codes. However, if you want it, you will need to create a folder "Figures" at the highest folder hierarchy of the project, and to uncomment line(s) with the plt.savefig statements in the desired plots.
