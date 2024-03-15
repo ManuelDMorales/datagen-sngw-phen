@@ -55,7 +55,7 @@ Run the Jupyter notebooks in the following order:
 
 `Populations_Explorer.ipynb` for exploring the distribution of SNR values, HFF slopes, waveform durations, and frequency ranges f1-f0 of the HFF. This information is loaded from log.data file. SNR values are computed from the strain samples containing noise, and other quantities from waveforms before being injected.
 
-In addition, the file `Toolbox.py` is included, which contains specific functions for the notebooks.
+In addition, the code `Toolbox.py` is included, which contains specific functions for the notebooks.
 
 # Important instructions
 
