@@ -7,7 +7,7 @@ Dataset generator of strain (time series) samples containing phenomenological gr
 
 <b><ins>Interferometric noise</ins></b>
 
-For this implementation, we used real noise from LIGO (L1, H1) and Virgo (V1) interferometric detectors from O3b run. This is a non-Gaussian and non-stationary noise stored in strain time series of 4,096s of duration, sampled at 16384Hz and 4096Hz. For our implementation, we choose the second sampling option. Data available on the [Gravitational Wave Open Science Center](https://gwosc.org/).
+For this implementation, we used real noise from LIGO (L1, H1) and Virgo (V1) interferometric detectors from O3b run. This is a non-Gaussian and non-stationary noise stored in strain time series of 4,096s of duration, sampled at 16384Hz and 4,096Hz. For our implementation, we choose the second sampling option. Data available on the [Gravitational Wave Open Science Center](https://gwosc.org/).
 
 <b><ins>Phenomenological waveforms</ins></b>
 
@@ -68,7 +68,7 @@ In addition, the file `Toolbox.py` is included, which contains specific function
 
 5. Before running `Process_PhenWaveforms.ipynb` to perform injections (and to generate window samples) covering a whole noise segment of 4,096s, it is highly recommendable to apply it only on a reduced segment of a few tens of seconds. To perform this check, set reduce_segment=1 and reduced_time_n equal to the duration (in seconds) of the reduced segment, in subsection 2.1 of the script.
    
-6. For the check previously mentioned, it is also useful to set input parameters doplot_spectrogram=1 (subsection 3.4.1) and set_doplots=0 (subsection 4.1). This output plots of windows samples in time and time-frequency domains. Only set this when working with a reduced segment; outputting plots working with the complete segment of 4096s considerably slows down the script execution.
+6. For the check previously mentioned, it is also useful to set input parameters doplot_spectrogram=1 (subsection 3.4.1) and set_doplots=0 (subsection 4.1). This output plots of windows samples in time and time-frequency domains. Only set this when working with a reduced segment; outputting plots working with the complete segment of 4,096s considerably slows down the script execution.
 
 7. To correctly explore populations in `Populations.ipynb` script, you need to generate a dataset containing window strain samples belonging to the three classes, that is to say, run `Process_PhenWaveforms.ipynb` three times, for each class (set in waveform_class input parameter, subsection 2.1).  
 
