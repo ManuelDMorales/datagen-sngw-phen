@@ -28,6 +28,7 @@ Fig. 1 shows three representative phenomenological waveforms in the time-frequen
 datagen-sngw-phen
 |___ Codes
      |___ Noise_Explorer.ipynb
+     |___ Populations_Explorer.ipynb
      |___ Prepare_Waveforms.ipynb
      |___ Process_PhenWaveforms.ipynb
      |___ Toolbox.py
@@ -52,7 +53,7 @@ Run the Jupyter notebooks in the following order:
 
 `Process_PhenWaveforms.ipynb` for applying injections, data conditioning (whitened, band-pass filtering), and generating a dataset of window strain samples. Each one of these windows has the same length Twin<4,096s, contains noise plus a phenomenological waveform, and is saved in a .txt file. In addition, a log.dat file is saved which contains information about injected signals in all windows.
 
-`Populations.ipynb` for exploring the distribution of SNR values, HFF slopes, waveform durations, and frequency ranges f1-f0 of the HFF. This information is loaded from log.data file. SNR values are computed from the strain samples containing noise, and other quantities from waveforms before being injected.
+`Populations_Explorer.ipynb` for exploring the distribution of SNR values, HFF slopes, waveform durations, and frequency ranges f1-f0 of the HFF. This information is loaded from log.data file. SNR values are computed from the strain samples containing noise, and other quantities from waveforms before being injected.
 
 In addition, the file `Toolbox.py` is included, which contains specific functions for the notebooks.
 
