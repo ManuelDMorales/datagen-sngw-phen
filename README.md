@@ -1,6 +1,6 @@
 # Summary
 
-Dataset generator of strain (time series) samples containing phenomenological gravitational waves from core-collapse supernovae added to noise from LIGO-Virgo interferometric detectors. Jupyter notebooks developed in Python and written by Manuel D. Morales (e-mail: <manueld.morales@academicos.udg.mx>).
+Dataset generator of strain (time series) samples containing phenomenological gravitational waves from core-collapse supernovae added to noise from LIGO-Virgo interferometric detectors. Jupyter notebooks developed in Python by Manuel D. Morales (e-mail: <manueld.morales@academicos.udg.mx>).
 
 
 # Science background
