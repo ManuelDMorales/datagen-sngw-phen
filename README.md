@@ -7,7 +7,7 @@ Dataset generator of strain (time series) samples containing phenomenological gr
 
 <b><ins>Interferometric noise</ins></b>
 
-For this implementation, we used real noise from LIGO (L1, H1) and Virgo (V1) interferometric detectors from O3b run. This is a non-Gaussian and non-stationary noise stored in strain time series of 4,096s of duration, sampled at 16,384Hz and 4,096Hz. For our implementation, we choose the second sampling option. Data available on the [Gravitational Wave Open Science Center](https://gwosc.org/).
+For this implementation, we used real noise from LIGO (L1, H1) and Virgo (V1) interferometric detectors from the O3b run. This is a non-Gaussian and non-stationary noise stored in strain time series of 4,096s of duration, sampled at 16,384Hz and 4,096Hz. For our implementation, we choose the second sampling option. Data is available on the [Gravitational Wave Open Science Center](https://gwosc.org/).
 
 <b><ins>Phenomenological waveforms</ins></b>
 
