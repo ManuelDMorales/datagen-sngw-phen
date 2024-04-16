@@ -27,20 +27,20 @@ Fig. 1 shows three representative phenomenological waveforms in the time-frequen
 # Implementation structure
 
 ```
-datagen-sngw-phen
-|___ Codes
+datagen-sngw-phen/
+|___ Codes/
      |___ Noise_Explorer.ipynb
      |___ Populations_Explorer.ipynb
      |___ Prepare_Waveforms.ipynb
      |___ Process_PhenWaveforms.ipynb
      |___ Toolbox.py
      |___ WaveformPhen_Explorer.ipynb
-|___ Datasets
-|___ Pictures
-|___ Waveforms_mod
-     |___ Phen
-|___ Waveforms_orig
-     |___ Phen
+|___ Datasets/
+|___ Pictures/
+|___ Waveforms_mod/
+     |___ Phen/
+|___ Waveforms_orig/
+     |___ Phen/
 |___ LICENCE
 |___ README.md
 ```
