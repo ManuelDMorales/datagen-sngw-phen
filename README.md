@@ -93,4 +93,4 @@ year = {2024}
 
 # About GPL-3.0 licence
 
-Notice this code is shared under a GNU General Public Licence 3.0, which is a strong copyleft license. It means that any copy or modification of the original software must also be released under the GPL-3.0. The choice of this licence is aligned to Open Science practices. More details about GPL-3.0 in the `README.md` file of the repository. We also suggest to see the [UNESCO Recomendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686).
+Notice this code is shared under a GNU General Public Licence 3.0, which is a strong copyleft license. It means that any copy or modification of the original software must also be released under the GPL-3.0. The choice of this licence is aligned to Open Science practices. More details about GPL-3.0 in the `LICENSE` file. We also suggest to see the [UNESCO Recomendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686).
