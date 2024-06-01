@@ -77,6 +77,21 @@ In addition, the code `Toolbox.py` is included, which contains specific function
 
 8. Saving plots as images is not mandatory in the codes. However, if you want it, you will need to create a folder "Figures" at the highest folder hierarchy of the project, and to uncomment line(s) with the plt.savefig statements in the scripts, for the desired plot(s).
 
+# Cite this work
+
+```
+If you use this software in your work, please cite using the following metadata:
+
+@software{Morales_datagen-sngw-phen_2024,
+author = {Morales, Manuel David},
+month = jun,
+title = {{datagen-sngw-phen}},
+url = {https://github.com/ManuelDMorales/datagen-sngw-phen},
+version = {1.0.0},
+year = {2024}
+}
+```
+
 # About GPL-3.0 licence
 
 Notice this code is shared under a GNU General Public Licence 3.0, which is a strong copyleft license. It means that any copy or modification of the original software must also be released under the GPL-3.0. The choice of this licence is aligned to Open Science practices. More details about GPL-3.0 in the `README.md` file of the repository. We also suggest to see the [UNESCO Recomendation on Open Science](https://www.unesco.org/en/open-science/about?hub=686).
