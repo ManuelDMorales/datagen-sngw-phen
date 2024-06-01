@@ -82,7 +82,7 @@ In addition, the code `Toolbox.py` is included, which contains specific function
 If you use this software in your work, please cite it using the following metadata:
 
 @software{Morales_datagen-sngw-phen_2024,
-author = {Morales, Manuel David},
+author = {Morales, Manuel D.},
 month = jun,
 title = {{datagen-sngw-phen}},
 url = {https://github.com/ManuelDMorales/datagen-sngw-phen},
